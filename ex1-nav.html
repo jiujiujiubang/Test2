@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/jquery-1.11.2.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.block-menu{
+				display: block;
+				background: #000;
+			}
+			.block-menu li{
+				display: inline-block;
+			}
+			.block-menu li a{
+				color: #fff;
+				display: block;
+				text-decoration: none;
+				font-family: "Passion One",arial,sans-serif;
+				-webkit-font-smoothing: antialiased;
+				text-transform: uppercase;
+				overflow: visible;
+				line-height: 20px;
+				font-size: 24px;
+				padding: 15px 10px;
+				transition: all .01s linear;
+				position: relative;
+				cursor: pointer;
+				/*perspective: 200px;*/
+			}
+			
+			.three-d:hover .three-d-box{
+				transform: rotateX(90deg);
+				transition: all 1s;
+			}
+			
+			.three-d-box{
+				/*transform: translateZ(-25px);*/
+				transform-style: preserve-3d;
+				pointer-events: none;
+				position: absolute;
+				left: 0;
+				top: 0;
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+			.three-d-box .front{
+				transform: translateZ(25px);
+			}
+			.three-d-box .back{
+				color: #ffe7c4;
+				background: #f00!important;
+				transform: rotateX(-90deg) translateZ(25px);  /*先不加这句代码 可以完全理解*/
+			}
+			.front, .back{
+				display: block;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top:0;
+				left: 0;
+				background: black;
+				padding: 15px 10px;
+				color: white;
+				pointer-events: none;
+				box-sizing: border-box;
+			}
+		</style>
+	</head>
+	<body>
+		<ul class="block-menu lazy">
+			<li>
+				<a href="/" class="three-d lazy">
+					京东
+					<span class="three-d-box lazy">
+						<span class="front lazy">京东</span>
+						<span class="back lazy">京东</span>
+					</span>
+				</a>
+			</li>
+			
+		<li><a href="/demos" class="three-d lazy ">
+		服装城
+		<span aria-hidden="true" class="three-d-box lazy ">
+		<span class="front lazy ">服装城</span>
+		<span class="back lazy ">服装城</span>
+		</span>
+		</a></li>
+		
+		<li><a href="/demos" class="three-d lazy ">
+		美妆馆
+		<span aria-hidden="true" class="three-d-box lazy ">
+		<span class="front lazy ">美妆馆</span>
+		<span class="back lazy ">美妆馆</span>
+		</span>
+		</a></li>
+		
+		<li><a href="/demos" class="three-d lazy ">
+		京东超市
+		<span aria-hidden="true" class="three-d-box lazy ">
+		<span class="front lazy ">京东超市</span>
+		<span class="back lazy ">京东超市</span>
+		</span>
+		</a></li>
+		
+		<li><a href="/demos" class="three-d lazy ">
+		生鲜
+		<span aria-hidden="true" class="three-d-box lazy ">
+		<span class="front lazy ">生鲜</span>
+		<span class="back lazy ">生鲜</span>
+		</span>
+		</a></li>
+		
+		<li><a href="/demos" class="three-d lazy ">
+		全球购
+		<span aria-hidden="true" class="three-d-box lazy ">
+		<span class="front lazy ">全球购</span>
+		<span class="back lazy ">全球购</span>
+		</span>
+		</a></li>
+		
+		<li><a href="/demos" class="three-d lazy ">
+		闪购
+		<span aria-hidden="true" class="three-d-box lazy ">
+		<span class="front lazy ">闪购</span>
+		<span class="back lazy ">闪购</span>
+		</span>
+		</a></li>
+		
+		<li><a href="/demos" class="three-d lazy ">
+		团购
+		<span aria-hidden="true" class="three-d-box lazy ">
+		<span class="front lazy ">团购</span>
+		<span class="back lazy ">团购</span>
+		</span>
+		</a></li>
+		
+		<li><a href="/demos" class="three-d lazy ">
+		拍卖
+		<span aria-hidden="true" class="three-d-box lazy ">
+		<span class="front lazy ">拍卖</span>
+		<span class="back lazy ">拍卖</span>
+		</span>
+		</a></li>
+		
+		<li><a href="/demos" class="three-d lazy ">
+		金融
+		<span aria-hidden="true" class="three-d-box lazy ">
+		<span class="front lazy ">金融</span>
+		<span class="back lazy ">金融</span>
+		</span>
+		</a></li>
+		
+		</ul>
+	</body>
+</html>
