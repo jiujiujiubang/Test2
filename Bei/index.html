@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="Font-Awesome-3.2.1/css/font-awesome.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<!--楼层导航-->
+			<div class="floor-nav">
+				<div class="nav-img"></div>
+				<div class="nav-detail">
+					<div class="nav-font">自 营</div>
+					<ul>
+						<li class="hover">奶粉纸尿裤榜</li>
+						<li>进口好货榜</li>
+						<li>潮童穿搭榜</li>
+						<li>精选童鞋榜</li>
+						<li>品质用品榜</li>
+						<li>早教玩具榜</li>
+						<li>品质女装榜</li>
+						<li>百搭鞋包榜</li>
+						<li>居家生活榜</li>
+						<li>美妆个护榜</li>
+						<li>限量秒杀榜</li>
+						<li>炫腹孕妈榜</li>
+						<li class="no-b-br">舌尖美味榜</li>
+					</ul>
+				</div>
+				<div class="nav-go-top">
+					<span>TOP</span>
+				</div>
+			</div>
+			
+			<!--侧边信息栏-->
+			<div class="slide-nav">
+				<div title="购物车" class="s-n-cart s-nav">
+					
+					<div class="c-cart">
+						<i class="icon-shopping-cart"></i>
+					</div>
+					
+				</div>
+				<div title="手机APP" class="s-n-app s-nav">
+					<div class="app-phone">
+						<p>下载手机APP</p>
+						<p>随时随地看上新</p>
+						<img src="images/phone.jpg" />
+					</div>
+					<i class="icon-mobile-phone"></i>
+				</div>
+				<a title="客服在线" href="#" class=" s-nav">
+					<i class="icon-user"></i>
+					<span class="tip-text">客服在线</span>
+				</a>
+				<div title="回到顶部" class="s-nav">
+					<i class="icon-chevron-up"></i>
+					<span class="go-to-top">回到顶部</span>
+				</div>
+			</div>
+			
+				
+			<!--头部-->
+			<div class="header">
+				<!--上方导航-->
+				<div class="top_nav">
+					<div class="wraper">
+						<ul>
+							<!--登录后-->
+							<li class="userNumShow"><a class="icon" href="#"></a><span><a></a></span><a class="out">[退出]</a></li>
+							<li class="seg"></li>
+							<li class="news"><a>消息</a></li>
+							<li class="seg"></li>
+							<li class="myIndent"><a>我的订单</a></li>
+							<li class="seg"></li>
+							<li class="myBei"><a>我的贝贝</a></li>
+							
+							<!--登陆前-->
+							<li class="view">
+								您好,<a href="register.html">请登录</a>&nbsp;<a href="login.html" class="view_right">免费注册</a>
+							</li>
+							
+							<!--不变-->
+							<li class="seg"></li>
+							<li><a>商家中心</a></li>
+							<li class="seg"></li>
+							<li class="small">
+								<div class="dropdown">
+									<ul>
+										<li class="dropdown-default">
+											<i class="icon-user"></i>
+											<a>联系客服</a>
+											<i class="icon-angle-down"></i>
+										</li>
+										<li class="dropdown-list">
+											<i class="icon-question-sign"></i>
+											<a>帮助中心</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="seg"></li>
+							<li class="sex">
+								<div class="dropdown-two">
+									<a>关注</a>
+									<i class="icon-angle-down"></i>
+								</div>
+								<div class="dropdown-img">
+									<div class="border"></div>
+									<dl class="wechat">
+										<dd>微信号：beibeiclub</dd>
+										<dt><img src="images/beibeiclub_90.png" /></dt>
+										<dd>订阅贝贝官方微信</dd>
+									</dl>
+									<dl class="social">
+										<dd><a><img src="images/weibo_45x45.png" /></a></dd>
+										<dd><a><img src="images/qzone_45x45.png" /></a></dd>
+									</dl>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--中间商标-->
+				<!--中间商标-->
+				<div class="head">
+					<div class="main-logo">
+						<img id="logo" src="images/main_logo5.png" alt="贝贝"/>
+						<i class="new"></i>
+						<a class="main-logo-a" href="index.html" title="返回首页"></a>
+						<div class="main-logo-slogan">
+							<a href="index.html"></a>
+						</div>
+						<div class="nav-cart">
+							<a class="top-cart">
+								<div class="top-cart-icon">
+									<i class="iconfont"></i>
+								</div>
+								<span>
+									我的购物车
+									<i class="iconfont"></i>
+								</span>
+							</a>
+							<!--购物车详情-->
+							<div class="nav-cart-detail">
+								<div class="cart-detail-menu">
+									<ul class="detail-menu-ul">
+										<li class="empty-cart">
+											<span class="note">赶快去挑选商品吧！</span>
+										</li>
+										<li class="over-cart cart-hide">
+											<a>
+												<img />
+											</a>
+											<a class="name"></a>
+											<p class="colorsize"></p>
+											<p class="price-p">
+												<span class="price-pp"></span><br />
+												<span class="price-num"></span>
+											</p>
+										</li>
+									</ul>
+									<div class="detail-menu-foot">
+										<div class="menu-foot-total">
+											小计:<span>￥0.00</span>
+										</div>
+										<div class="menu-foot-btn">
+											<a class="foot-btn-detail">
+												<i class="icon-shopping-cart"></i>
+												去购物车结算
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--中间导航-->
+				<div class="nav">
+					<div class="nav-wraper">
+						<a href="#" class="nav-item current">首页</a>
+						<a href="#" class="nav-item">全球购</a>
+						<a href="#" class="nav-item">限量购</a>
+						<a href="#" class="nav-item">正品保证</a>
+						<a href="#" class="nav-item">手机客户端</a>
+						<div class="nav-wraper-right">
+							<div class="r_left">
+								<span>在售分类<i></i></span>
+								<div class="classify">
+									<!--JSON-->
+									<ul class="classify-left">
+										<li></li>
+									</ul>
+									<div class="classify-right">
+										<ul class="ul-on"></ul>
+										
+									</div>
+								</div>
+							</div>
+							<div class="r_right">
+								<input class="r_search" type="text" placeholder="搜索商品或品牌" value maxlength="20" />
+								<i></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--下方导航-->
+				<div class="sub_nav">
+					<div class="sub_nav_view view-SubNav">
+						<div class="sub_nav_wraper">
+							<ul>
+								<li class="sub-nav-logo">
+									<a href="index.html"></a>
+								</li>
+								<li><a href="#">童装</a></li>
+								<li><a href="#">童鞋</a></li>
+								<li><a href="#">用品</a></li>
+								<li><a href="#">玩具</a></li>
+								<li><a href="#">女装</a></li>
+								<li><a href="#">居家</a></li>
+								<li><a href="#">食品</a></li>
+								<li><a href="#">美妆</a></li>
+								<li><a href="#">奶粉</a></li>
+								<li id="hot"><a href="#">纸尿裤</a><i class="hot"></i></li>
+								<li class="seg"></li>
+								<li class="age"><span>性别年龄</span>
+									<i></i>
+									<div class="age-sex">
+										<h5>男孩</h5>
+										<p>
+											<a href="#">0-1岁</a>
+											<a href="#">1-3岁</a>
+											<a href="#">3-6岁</a>
+											<a href="#">6-9岁</a>
+											<a href="#">9-12岁</a>
+										</p>
+										<h5>女孩</h5>
+										<p>
+											<a href="#">0-1岁</a>
+											<a href="#">1-3岁</a>
+											<a href="#">3-6岁</a>
+											<a href="#">6-9岁</a>
+											<a href="#">9-12岁</a
+										</p>
+									</div>
+								</li>
+								<li class="oversea">
+									<a href="#">
+										<img src="images/oversea_icon.png" />全球购
+									</a>
+								</li>
+								<li class="tomorrow"><i></i><span>精彩预告</span></li>
+								<li class="tuan">
+									<a href="#">
+										<img src="images/tuan.png" />限量购
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--中间广告-->
+				<div class="banner">
+					<i></i>
+					<span></span>
+					<div class="rule">
+						<div class="rule-img">
+							<div class="close"></div>
+							<img src="images/bigrule.png" />
+						</div>
+						<div class="rule-over"></div>
+					</div>
+				</div>
+				<!--倒计时-->
+				<div class="countdownBig">
+					<div class="countdown-container">
+						<span id="time_d"></span>
+						<span id="time_h"></span>
+						<span id="time_m"></span>
+						<span id="time_s"></span>
+					</div>
+				</div>
+				<!--透明度轮播图-->
+				<div class="carousel">
+					<ul class="carousel-img">
+						<li class="imgShow">
+							<a style="background-color: rgb(255, 240, 185);">
+								<img src="images/carousel1.jpg" />
+							</a>
+						</li>
+						<li>
+							<a style="background-color: rgb(220, 242, 255);">
+								<img src="images/carousel2.jpg" />
+							</a>
+						</li>
+					</ul>
+					<div class="carousel-point">
+						<ul>
+							<li>
+								<span class="cur-point"></span>
+							</li>
+							<li>
+								<span></span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	
+			<!--主体-->
+			<div class="main">
+				<!--好货榜-->
+				<div class="floor">
+					<div class="main-title"></div>
+					<div class="main-con">
+						<div class="ul-wraper">
+							<div class="ul-content">
+								<ul class="con-ul">
+									<li class="ul-li">
+										<a class="li-a">
+											<img class="a-img" />
+											<h3 class="a-h3"></h3>
+										</a>
+										<div class="con-detail">
+											<p class="d-price">
+												<span><em style="font-style: normal;"></em><i>.00</i></span>
+											</p>
+											<div class="d-info">
+												<p class="info-first"></p>
+												<p class="info-second"></p>
+											</div>
+											<a class="d-go">
+												<p>立即抢购</p>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floor">
+					<div class="main-title"></div>
+					<div class="main-con">
+						<div class="ul-wraper">
+							<div class="ul-content">
+								<ul class="con-ul">
+									<li class="ul-li">
+										<a class="li-a">
+											<img class="a-img" />
+											<h3 class="a-h3"></h3>
+										</a>
+										<div class="con-detail">
+											<p class="d-price">
+												<span><em style="font-style: normal;"></em><i>.00</i></span>
+											</p>
+											<div class="d-info">
+												<p class="info-first"></p>
+												<p class="info-second"></p>
+											</div>
+											<a class="d-go">
+												<p>立即抢购</p>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floor">
+					
+					<div class="t-main-title"></div>
+					<div class="t-main-con">
+						<div class="t-ul-wraper">
+							<div class="t-ul-content">
+								<ul class="t-con-ul">
+									<li class="t-ul-li">
+										<a class="t-a">
+											<img class="t-img" />
+										</a>
+										<div class="t-des">
+											<div class="d-name"></div>
+											<div class="t-d-price"></div>
+											<a class="des-go"></a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floor">
+					<div class="t-main-title"></div>
+					<div class="t-main-con">
+						<div class="t-ul-wraper">
+							<div class="t-ul-content">
+								<ul class="t-con-ul">
+									<li class="t-ul-li">
+										<a class="t-a">
+											<img class="t-img" />
+										</a>
+										<div class="t-des">
+											<div class="d-name"></div>
+											<div class="t-d-price"></div>
+											<a class="des-go"></a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floor">
+					<div class="main-title"></div>
+					<div class="main-con">
+						<div class="ul-wraper">
+							<div class="ul-content">
+								<ul class="con-ul">
+									<li class="ul-li">
+										<a class="li-a">
+											<img class="a-img" />
+											<h3 class="a-h3"></h3>
+										</a>
+										<div class="con-detail">
+											<p class="d-price">
+												<span><em style="font-style: normal;"></em><i>.00</i></span>
+											</p>
+											<div class="d-info">
+												<p class="info-first"></p>
+												<p class="info-second"></p>
+											</div>
+											<a class="d-go">
+												<p>立即抢购</p>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floor">
+					<div class="main-title"></div>
+					<div class="main-con">
+						<div class="ul-wraper">
+							<div class="ul-content">
+								<ul class="con-ul">
+									<li class="ul-li">
+										<a class="li-a">
+											<img class="a-img" />
+											<h3 class="a-h3"></h3>
+										</a>
+										<div class="con-detail">
+											<p class="d-price">
+												<span><em style="font-style: normal;"></em><i>.00</i></span>
+											</p>
+											<div class="d-info">
+												<p class="info-first"></p>
+												<p class="info-second"></p>
+											</div>
+											<a class="d-go">
+												<p>立即抢购</p>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floor">
+					<div class="t-main-title"></div>
+					<div class="t-main-con">
+						<div class="t-ul-wraper">
+							<div class="t-ul-content">
+								<ul class="t-con-ul">
+									<li class="t-ul-li">
+										<a class="t-a">
+											<img class="t-img" />
+										</a>
+										<div class="t-des">
+											<div class="d-name"></div>
+											<div class="t-d-price"></div>
+											<a class="des-go"></a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floor">
+					<div class="t-main-title"></div>
+					<div class="t-main-con">
+						<div class="t-ul-wraper">
+							<div class="t-ul-content">
+								<ul class="t-con-ul">
+									<li class="t-ul-li">
+										<a class="t-a">
+											<img class="t-img" />
+										</a>
+										<div class="t-des">
+											<div class="d-name"></div>
+											<div class="t-d-price"></div>
+											<a class="des-go"></a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floor">
+					<div class="main-title"></div>
+					<div class="main-con">
+						<div class="ul-wraper">
+							<div class="ul-content">
+								<ul class="con-ul">
+									<li class="ul-li">
+										<a class="li-a">
+											<img class="a-img" />
+											<h3 class="a-h3"></h3>
+										</a>
+										<div class="con-detail">
+											<p class="d-price">
+												<span><em style="font-style: normal;"></em><i>.00</i></span>
+											</p>
+											<div class="d-info">
+												<p class="info-first"></p>
+												<p class="info-second"></p>
+											</div>
+											<a class="d-go">
+												<p>立即抢购</p>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floor">
+					<div class="main-title"></div>
+					<div class="main-con">
+						<div class="ul-wraper">
+							<div class="ul-content">
+								<ul class="con-ul">
+									<li class="ul-li">
+										<a class="li-a">
+											<img class="a-img" />
+											<h3 class="a-h3"></h3>
+										</a>
+										<div class="con-detail">
+											<p class="d-price">
+												<span><em style="font-style: normal;"></em><i>.00</i></span>
+											</p>
+											<div class="d-info">
+												<p class="info-first"></p>
+												<p class="info-second"></p>
+											</div>
+											<a class="d-go">
+												<p>立即抢购</p>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floor">
+					<div class="main-title"></div>
+					<div class="main-con">
+						<div class="ul-wraper">
+							<div class="ul-content">
+								<ul class="con-ul">
+									<li class="ul-li">
+										<a class="li-a">
+											<img class="a-img" />
+											<h3 class="a-h3"></h3>
+										</a>
+										<div class="con-detail">
+											<p class="d-price">
+												<span><em style="font-style: normal;"></em><i>.00</i></span>
+											</p>
+											<div class="d-info">
+												<p class="info-first"></p>
+												<p class="info-second"></p>
+											</div>
+											<a class="d-go">
+												<p>立即抢购</p>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floor">
+					<div class="main-title"></div>
+					<div class="main-con">
+						<div class="ul-wraper">
+							<div class="ul-content">
+								<ul class="con-ul">
+									<li class="ul-li">
+										<a class="li-a">
+											<img class="a-img" />
+											<h3 class="a-h3"></h3>
+										</a>
+										<div class="con-detail">
+											<p class="d-price">
+												<span><em style="font-style: normal;"></em><i>.00</i></span>
+											</p>
+											<div class="d-info">
+												<p class="info-first"></p>
+												<p class="info-second"></p>
+											</div>
+											<a class="d-go">
+												<p>立即抢购</p>
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="floor">
+					<div class="t-main-title"></div>
+					<div class="t-main-con">
+						<div class="t-ul-wraper">
+							<div class="t-ul-content">
+								<ul class="t-con-ul">
+									<li class="t-ul-li">
+										<a class="t-a">
+											<img class="t-img" />
+										</a>
+										<div class="t-des">
+											<div class="d-name"></div>
+											<div class="t-d-price"></div>
+											<a class="des-go"></a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--特卖榜-->
+				<div class="main-container">
+					<div class="container-title">
+						<div class="t_left">
+							<h3>今日特卖</h3>
+							<i></i>
+							<span>每天9点准时更新</span>
+						</div>
+						<div class="t_right">
+							定制我的专属特卖 立即
+							<a href="#">[登录]</a>体验
+						</div>
+					</div>
+					<div class="container-menu">
+						<!--特卖左边-->
+						<div class="menu-left">
+							<a href="#" class="menu-sale">
+								<div class="s-left">
+									<img src="images/sale1.jpg" />
+								</div>
+								<div class="s-right">
+									<div class="r-countdown">
+										<i class="icon-time"></i>
+										<span class="r-countdown-time">
+											<div>剩余：
+												<span><em id="time_dd"></em>天</span>
+												<span><em id="time_hh"></em>时</span>
+												<span><em id="time_mm"></em>分</span>
+												<span><em id="time_ss"></em>秒</span>
+											</div>
+										</span>
+									</div>
+									<div class="r-detail">
+										<h3>
+											<span class="detail-name"></span>
+										</h3>
+										<div class="detail-description"></div>
+									</div>
+									<div class="r-people">
+										<span></span>
+									</div>
+									<span class="r-btn">
+										<span></span>折起特卖 >>
+									</span>
+								</div>
+							</a>
+						</div>
+						<!--特卖右边-->
+						<div class="menu-right">
+							<!--品牌展示-->
+							<div class="m-r-brand">
+								<ul class="b-tag">
+									<li data-index="1" class="t-today t-on">今日优选</li>
+									<li data-index="2"  class="t-tommorow">精彩预告</li>
+								</ul>
+								<ul data-index="1"  class="b-img b-img-on">
+									<li>
+										<a href="#">
+											<img />
+										</a>
+									</li>
+								</ul>
+								<ul data-index="2"  class="b-img">
+									<li>
+										<a href="#">
+											<img />
+										</a>
+									</li>
+								</ul>
+								<p>
+									<a data-index = "1" class="b-a b-a-today" href="#">更多在售品牌 ></a>
+									<a data-index = "2" class="b-a b-a-tommorow" href="#">更多品牌抢先看 ></a>
+								</p>
+							</div>
+							<!--轮播-->
+							<div class="m-r-oversea">
+								<ul>
+									<li>
+										<a>
+											<img src="images/oversea1.jpg" />
+										</a>
+										<p>
+											<span class="icon-fighter-jet"></span>
+											<a href="#">[全球购] 家喻户晓的零食-张君雅...</a>
+										</p>
+									</li>
+									
+									<li>
+										<a>
+											<img src="images/oversea2.jpg" />
+										</a>
+										<p>
+											<span class="icon-fighter-jet"></span>
+											<a href="#">[全球购] 悦诗风吟-自然主义化妆品</a>
+										</p>
+									</li>
+									
+									<li>
+										<a>
+											<img src="images/oversea3.png" />
+										</a>
+										<p>
+											<span class="icon-fighter-jet"></span>
+											<a href="#">[全球购] PUKY/凯艺宝宝自行车专场</a>
+										</p>
+									</li>
+								</ul>
+								<span class="pre-btn">
+									<i class="icon-angle-left"></i>
+								</span>
+								<span class="next-btn">
+									<i class="icon-angle-right"></i>
+								</span>
+								<div class="point-btn">
+									<span index=1 class="btn-active"></span>
+									<span index=2 ></span>
+									<span index=3 ></span>
+								</div>
+							</div>
+							<!--热卖排行榜-->
+							<div class="m-r-hotsort">
+								<div class="h-title"><i class="icon-bar-chart"></i>热卖排行榜</div>
+								<div class="h-con">
+									<ul class="c-sort">
+										<li data-index = "1" class="current">童装</li>
+										<li data-index = "2">童鞋</li>
+										<li data-index = "3">玩具</li>
+										<li data-index = "4" class="no-br">用品</li>
+									</ul>
+									<div data-index = "1" class="con-one con-on">
+										<a class="c-o-one" href="cart.html">
+											<img class="one-left" />
+											<div class="one-right">
+												<div class="one-right-title"></div>
+												<div class="one-right-price">
+													<span class="price-true">
+														￥<span class="price-true-color"></span>
+													</span>
+													<span class="price-false"></span>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div data-index = "2" class="con-one">
+										<a class="c-o-one" href="#">
+											<img class="one-left" />
+											<div class="one-right">
+												<div class="one-right-title"></div>
+												<div class="one-right-price">
+													<span class="price-true">
+														￥<span class="price-true-color"></span>
+													</span>
+													<span class="price-false"></span>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div data-index = "3" class="con-one">
+										<a class="c-o-one" href="#">
+											<img class="one-left"" />
+											<div class="one-right">
+												<div class="one-right-title"></div>
+												<div class="one-right-price">
+													<span class="price-true">
+														￥<span class="price-true-color"></span>
+													</span>
+													<span class="price-false"></span>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div data-index = "4" class="con-one">
+										<a class="c-o-one" href="#">
+											<img class="one-left" />
+											<div class="one-right">
+												<div class="one-right-title"></div>
+												<div class="one-right-price">
+													<span class="price-true">
+														￥<span class="price-true-color"></span>
+													</span>
+													<span class="price-false"></span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--最后疯抢-->
+				<div class="main-sell">
+					<div class="sell-title">
+						<span class="t-left">最后疯抢</span>
+						<span class="t-dot"></span>
+						<span>特卖扫货倒计时</span>
+					</div>
+				</div>
+				<!--疯抢产品-->
+				<div class="main-goods">
+					<a class="goods-items" href="#">
+						<span class="it-promo">
+							<img class="promo-img" />
+							<span class="promo-back">
+								<span></span>
+								<span></span>
+							</span>
+						</span>
+						<span class="it-info">
+							<span class="info-price">
+								<span class="f-price-font"></span>
+								折起
+							</span>
+							<span class="info-name"></span>
+						</span>
+						<span class="it-time">
+							<i class="icon-time"></i>
+							本场剩余：<span id="time_ddd"></span>天<span id="time_hhh"></span>小时
+						</span>
+					</a>
+				</div>
+			</div>
+			
+			<!--游泳-->
+			<div class="botbg">
+				<img src="images/foot-top.png" />
+			</div>
+			<!--服务 合作伙伴-->
+			<div class="service">
+				<div class="service-wraper">
+					<div class="tac">
+						<div class="help-quick">
+							<dl class="no-l-border">
+								<dt>
+									<i class="icon-star" style="padding-right: 3px;"></i>新手指南
+								</dt>
+								<dd>
+									<a>• 注册登录</a>
+								</dd>
+								<dd>
+									<a>• 抢购商品</a>
+								</dd>
+								<dd>
+									<a>• 购物车操作</a>
+								</dd>
+								<dd>
+									<a>• 下单支付</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<i class="icon-align-justify" style="padding-right: 3px;"></i>常见问题
+								</dt>
+								<dd>
+									<a>• 热门常见问题</a>
+								</dd>
+								<dd>
+									<a>• 退货/退款相关</a>
+								</dd>
+								<dd>
+									<a>• 发货相关</a>
+								</dd>
+								<dd>
+									<a>• 平台交易规则</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<i class=" icon-user"  style="padding-right: 3px;"></i>账号管理
+								</dt>
+								<dd>
+									<a>• 会员注册</a>
+								</dd>
+								<dd>
+									<a>• 密码管理</a>
+								</dd>
+								<dd>
+									<a>• 投诉举报</a>
+								</dd>
+								<dd>
+									<a>• 不良信息处理</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<i class="icon-money" style="padding-right: 3px;"></i>支付相关
+								</dt>
+								<dd>
+									<a>• 在线支付</a>
+								</dd>
+								<dd>
+									<a>• 余额支付</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<i class="icon-truck" style="padding-right: 3px;"></i>配送相关
+								</dt>
+								<dd>
+									<a>• 配送说明</a>
+								</dd>
+								<dd>
+									<a>• 物流信息</a>
+								</dd>
+								<dd>
+									<a>• 验货签收</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
+									<i class="icon-github-alt" style="padding-right: 3px;"></i>消费者保障
+								</dt>
+								<dd>
+									<a>• 退货政策</a>
+								</dd>
+								<dd>
+									<a>• 退货流程</a>
+								</dd>
+								<dd>
+									<a>• 退货方式和时效</a>
+								</dd>
+								<dd>
+									<a>• 交易安全保障</a>
+								</dd>
+								<dd>
+									<a>• 保证金制度</a>
+								</dd>
+							</dl>
+							<dl class="no-r-border">
+								<dd>
+									<p class="pink">
+										关注社区<br />
+										<span class="c-999">优惠特卖早知道</span>
+									</p>
+									<p>
+										<a class="sns-link" href="http://weibo.com">&nbsp;</a>
+										<a class="sns-link" href="http://user.qzone.qq.com">&nbsp;</a>
+									</p>
+								</dd>
+							</dl>
+						</div>
+						<div style="border-top: 1px solid #fdfdfd;text-align: center;">
+							<a><img src="images/help.png" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--底部-->
+			<div id="footer">
+				<div class="footer-nav">
+					<a href="index.html">首页</a> | 
+					<a href="#">关于贝贝</a> | 
+					<a href="#">商家入驻</a> | 
+					<a href="#">正品保证</a> | 
+					<a href="#">人才招聘</a> | 
+					<a href="#">联系我们</a> | 
+					<a href="#">帮助中心</a> | 
+					<a href="#">友情链接</a> | 
+					<a href="#">手机客户端</a> | 
+					<a href="#">客服在线</a> | 
+					<a href="#">贝贝公益</a> | 
+					<a href="#">品质健康</a>
+				</div>
+				<div class="footer-content">
+					<div class="footer-content-wraper">
+						<p>浙ICP备12005806号 |食品流通许可证：SP3301041510054925 |出版物经营许可证：新出发零字第00086号</p>
+						<p style="margin-top: 8px;">
+							© 2014-2016 <a style="color: #999;" href="index.html">贝贝</a>beibei.com，All Rights Reserved. 客服热线：10107788
+						</p>
+						<div>
+							<a href="https://ss.knet.cn/verifyseal.dll?sn=e16072233010064201bhd4000000&comefrom=trust&trustKey=dn&trustValue=www.beibei.com"><img style="width: 90px;height: 32px;" src="images/cp.png" /></a>&nbsp;&nbsp;
+							<a href="https://search.szfw.org/cert/l/CX20140613008216008256"><img style="width: 90px;height: 32px;"  src="images/cxwz.png" /></a>&nbsp;&nbsp;
+							<a href="#"><img style="width: 90px;height: 32px;"  src="images/picc.png" /></a>&nbsp;&nbsp;
+							<a href="http://122.224.75.236/wzba/login.do?method=hdurl&doamin=http://www.beibei.com&id=330104000229884&SHID=1223.0AFF_NAME=com.rouger.gs.main.UserInfoAff&AFF_ACTION=qyhzdetail&PAGE_URL=ShowDetail"><img style="width: 90px;height: 32px;"  src="images/hzgs.png" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	
+	</body>
+</html>

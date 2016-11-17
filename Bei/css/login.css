@@ -1,0 +1,294 @@
+.m-wrap{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	overflow: hidden;
+}
+.m-head{
+	overflow: hidden;
+	width: 1080px;
+	margin: 50px auto;
+	height: 60px;
+}
+.m-h-fl a{
+	display: block;
+    background:url(../images/main_logo5.png) no-repeat 0 0 #fff;
+    height: 60px;
+    position: relative;
+    width: 250px;
+}
+.m-h-fr a{
+	display: block;
+    background: url(../images/main-logo.png) no-repeat 0 5px #fff;
+    height: 40px;
+    position: relative;
+    width: 390px;
+}
+.m-container{
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+    padding: 70px 0 200px 0;
+}
+.c-left{
+	width: 500px;
+    height: 354px;
+    background: url(../images/bk_1_03.png) center no-repeat;
+    position: relative;
+    left: 50px;
+    float: left;
+}
+.c-menu{
+	float: right;
+	color: #666;
+    width: 400px;
+    border: 1px solid #ececec;
+    border-top: 2px solid #ff4965;
+}
+.m-form{
+	padding: 50px 35px;
+}
+.f-title{
+	font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.t-left{
+	float: right;
+	font-size:12px ;
+}
+.t-left span{
+	color: #666;
+}
+.t-left a{
+	color: #FF4965;
+}
+.m-form .f-input{
+	height: 30px;
+    font-size: 12px;
+    width: 278px;
+    color: #666;
+    line-height: 30px;
+    border: 0;
+    outline: 0;
+    padding: 0 10px;
+    background: 0 0;
+    position: relative
+}
+.f-number{
+	margin-top: 15px;
+    border: 1px solid #e6e6e6;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding-left: 30px;
+    position: relative;
+}
+.n-error,.c-error,.p-error{
+	height: 18px;
+    line-height: 18px;
+    margin-top: 8px;
+    color: #fe4b49;
+    display: none;
+    font-size: 12px;
+}
+.icon-exclamation-sign{
+	margin-right: 3px;
+	font-size: 16px;
+}
+.f-number span{
+	width: 14px;
+	height: 14px;
+    position: absolute;
+	left: 8px;
+    top: 8px;
+    padding-right: 7px;
+    border-right: 1px solid #e6e6e6;
+    background: url(../images/login.jpg)  no-repeat;
+   
+}
+.f-click{
+	margin-top: 15px;
+	overflow: hidden;
+}
+.f-click label{
+	display: block;
+    border: 1px solid #e6e6e6;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding-left: 30px;
+    position: relative;
+    width: 195px;
+    float: left;
+}
+.m-form .f-click input{
+    width: 175px;
+}
+.f-click label span{
+	background-position: 0 -17px;
+	left: 8px;
+    top: 8px;
+    border-right: 1px solid #e6e6e6;
+    padding-right: 7px;
+    position: absolute;
+    background-image: url(../images/login.jpg);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+.f-click .c-img{
+    width: 90px;
+	height: 30px;
+	float: right;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    line-height: 30px;
+    border-radius:5px ;
+    cursor: pointer;
+}
+.f-msg{
+	margin-top: 15px;
+	overflow: hidden;
+}
+.f-msg label{
+	display: block;
+    border: 1px solid #e6e6e6;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding-left: 30px;
+    position: relative;
+    width: 195px;
+    float: left;
+}
+.m-form .f-msg input{
+	width: 175px;
+}
+
+.f-msg label span{
+	background-position: 0 -33px;
+	left: 8px;
+    top: 8px;
+    border-right: 1px solid #e6e6e6;
+    padding-right: 7px;
+    position: absolute;
+    background-image: url(../images/login.jpg);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+}
+.f-msg .m-btn{
+	float: right;
+	font-size: 14px;
+	border: 1px solid #FF4965;
+	background: #fff;
+	color: #FF4965;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	line-height: 30px;
+	cursor: pointer;
+}
+.f-password{
+	margin-top: 15px;
+	display: block;
+    border: 1px solid #e6e6e6;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding-left: 30px;
+    position: relative;
+}
+.f-password .userPasswordSee{
+	display: none;
+}
+.f-password  span{
+	background-position: 0 -47px;
+	left: 8px;
+    top: 8px;
+    border-right: 1px solid #e6e6e6;
+    padding-right: 7px;
+    position: absolute;
+    background-image: url(../images/login.jpg);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+}
+.f-password .iBkPs{
+	background-position: 0 -83px;
+}
+.f-password i{
+	background-position: 0 -66px;
+	right: 8px;
+    top: 10px;
+    cursor: pointer;
+    padding-right: 7px;
+    position: absolute;
+    background-image: url(../images/login.jpg);
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+}
+.f-btn{
+	margin-top: 15px;
+	color: #fff;
+    background: #ff4965;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 6px;
+    width: 330px;
+    border: 0;
+}
+.f-tip{
+	margin-top: 15px;
+	font-size: 12px;
+}
+.f-deal{
+	margin-top: 15px;
+	font-size: 12px;
+}
+.f-deal a{
+	color: #FF4965;
+}
+.f-access{
+	margin-top: 15px;
+	font-size: 12px;
+	overflow: hidden;
+}
+.f-access span{
+	float: left;
+	padding-top: 3px;
+}
+.f-access div{
+	float: left;
+	overflow: hidden;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.qq,.tb,.wx{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	opacity: 0.3;
+	filter:alpha(opacity=30);
+}
+.qq{
+	background: url(../images/quick_02.png) no-repeat;
+}
+.tb{
+	background: url(../images/quick_04.png) no-repeat;
+}
+.wx{
+	background: url(../images/quick_06.png) no-repeat;
+}
+
+.f-access  a:hover{
+	opacity: 1;
+}

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="Font-Awesome-3.2.1/css/font-awesome.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--侧边信息栏-->
+			<div class="slide-nav">
+				<div title="购物车" class="s-n-cart s-nav">
+					<div class="c-cart">
+						<i class="icon-shopping-cart"></i>
+					</div>
+				</div>
+				<div title="手机APP" class="s-n-app s-nav">
+					<div class="app-phone">
+						<p>下载手机APP</p>
+						<p>随时随地看上新</p>
+						<img src="images/phone.jpg" />
+					</div>
+					<i class="icon-mobile-phone"></i>
+				</div>
+				<a title="客服在线" href="#" class=" s-nav">
+					<i class="icon-user"></i>
+					<span class="tip-text">客服在线</span>
+				</a>
+				<div title="回到顶部" class="s-nav">
+					<i class="icon-chevron-up"></i>
+					<span class="go-to-top">回到顶部</span>
+				</div>
+			</div>
+			
+		<div class="header">
+				<!--上方导航-->
+				<div class="top_nav">
+					<div class="wraper">
+						<ul>
+							<!--登录后-->
+							<li class="userNumShow"><a class="icon" href="#"></a><span><a></a></span><a class="out">[退出]</a></li>
+							<li class="seg"></li>
+							<li class="news"><a>消息</a></li>
+							<li class="seg"></li>
+							<li class="myIndent"><a>我的订单</a></li>
+							<li class="seg"></li>
+							<li class="myBei"><a>我的贝贝</a></li>
+							
+							<!--登陆前-->
+							<li class="view">
+								您好,<a href="register.html">请登录</a>&nbsp;<a href="login.html" class="view_right">免费注册</a>
+							</li>
+							
+							<!--不变-->
+							<li class="seg"></li>
+							<li><a>商家中心</a></li>
+							<li class="seg"></li>
+							<li class="small">
+								<div class="dropdown">
+									<ul>
+										<li class="dropdown-default">
+											<i class="icon-user"></i>
+											<a>联系客服</a>
+											<i class="icon-angle-down"></i>
+										</li>
+										<li class="dropdown-list">
+											<i class="icon-question-sign"></i>
+											<a>帮助中心</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="seg"></li>
+							<li class="sex">
+								<div class="dropdown-two">
+									<a>关注</a>
+									<i class="icon-angle-down"></i>
+								</div>
+								<div class="dropdown-img">
+									<div class="border"></div>
+									<dl class="wechat">
+										<dd>微信号：beibeiclub</dd>
+										<dt><img src="images/beibeiclub_90.png" /></dt>
+										<dd>订阅贝贝官方微信</dd>
+									</dl>
+									<dl class="social">
+										<dd><a><img src="images/weibo_45x45.png" /></a></dd>
+										<dd><a><img src="images/qzone_45x45.png" /></a></dd>
+									</dl>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--中间商标-->
+				<div class="head">
+					<div class="main-logo">
+						<img id="logo" src="images/main_logo5.png" alt="贝贝"/>
+						<i class="new"></i>
+						<a class="main-logo-a" href="index.html" title="返回首页"></a>
+						<div class="main-logo-slogan">
+							<a href="index.html"></a>
+						</div>
+						<div class="nav-cart">
+							<a class="top-cart">
+								<div class="top-cart-icon">
+									<i class="iconfont"></i>
+								</div>
+								<span>
+									我的购物车
+									<i class="iconfont"></i>
+								</span>
+							</a>
+							<!--购物车详情-->
+							<div class="nav-cart-detail">
+								<div class="cart-detail-menu">
+									<ul class="detail-menu-ul">
+										<li class="empty-cart">
+											<span class="note">赶快去挑选商品吧！</span>
+										</li>
+										<li class="over-cart cart-hide">
+											<a>
+												<img />
+											</a>
+											<a class="name"></a>
+											<p class="colorsize"></p>
+											<p class="price-p">
+												<span class="price-pp"></span><br />
+												<span class="price-num"></span>
+											</p>
+										</li>
+									</ul>
+									<div class="detail-menu-foot">
+										<div class="menu-foot-total">
+											小计:<span></span>
+										</div>
+										<div class="menu-foot-btn">
+											<a class="foot-btn-detail">
+												<i class="icon-shopping-cart"></i>
+												去购物车结算
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--中间导航-->
+				<div class="nav">
+					<div class="nav-wraper">
+						<a href="#" class="nav-item current">首页</a>
+						<a href="#" class="nav-item">全球购</a>
+						<a href="#" class="nav-item">限量购</a>
+						<a href="#" class="nav-item">正品保证</a>
+						<a href="#" class="nav-item">手机客户端</a>
+						<div class="nav-wraper-right">
+							<div class="r_left">
+								<span>在售分类<i></i></span>
+								<div class="classify">
+									<!--JSON-->
+									<ul class="classify-left">
+										<li></li>
+									</ul>
+									<div class="classify-right">
+										<ul class="ul-on"></ul>
+										
+									</div>
+								</div>
+							</div>
+							<div class="r_right">
+								<input class="r_search" type="text" placeholder="搜索商品或品牌" value maxlength="20" />
+								<i></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--下方导航-->
+				<div class="sub_nav">
+					<div class="sub_nav_view view-SubNav">
+						<div class="sub_nav_wraper">
+							<ul>
+								<li class="sub-nav-logo">
+									<a href="index.html"></a>
+								</li>
+								<li><a href="#">童装</a></li>
+								<li><a href="#">童鞋</a></li>
+								<li><a href="#">用品</a></li>
+								<li><a href="#">玩具</a></li>
+								<li><a href="#">女装</a></li>
+								<li><a href="#">居家</a></li>
+								<li><a href="#">食品</a></li>
+								<li><a href="#">美妆</a></li>
+								<li><a href="#">奶粉</a></li>
+								<li id="hot"><a href="#">纸尿裤</a><i class="hot"></i></li>
+								<li class="seg"></li>
+								<li class="age"><span>性别年龄</span>
+									<i></i>
+									<div class="age-sex">
+										<h5>男孩</h5>
+										<p>
+											<a href="#">0-1岁</a>
+											<a href="#">1-3岁</a>
+											<a href="#">3-6岁</a>
+											<a href="#">6-9岁</a>
+											<a href="#">9-12岁</a>
+										</p>
+										<h5>女孩</h5>
+										<p>
+											<a href="#">0-1岁</a>
+											<a href="#">1-3岁</a>
+											<a href="#">3-6岁</a>
+											<a href="#">6-9岁</a>
+											<a href="#">9-12岁</a
+										</p>
+									</div>
+								</li>
+								<li class="oversea">
+									<a href="#">
+										<img src="images/oversea_icon.png" />全球购
+									</a>
+								</li>
+								<li class="tomorrow"><i></i><span>精彩预告</span></li>
+								<li class="tuan">
+									<a href="#">
+										<img src="images/tuan.png" />限量购
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="cart">
+			<div class="c-wraper">
+				<div class="cart-container">
+					<div class="con-title">
+						<a href="index.html">首页</a> >
+						<a href="index.html">限量购</a> >
+						<span>猪猪的故事儿童童装男女童睡衣家居服套装</span>
+					</div>
+					<div class="con-content">
+						<div class="slid-wraper">
+							<div class="slid-wrapper">
+								<div class="main-img">
+									<a style="display:inline-block">
+										<img class="midImg" src="images/cart1.jpg" />
+									</a>
+									<div class="imgSelector"></div>
+								</div>
+								<div class="main-img-hover"></div>
+								<div class="thumb-cont">
+									<div class="thumb-cont-inner">
+										<ul></ul>
+									</div>
+									<a class="prev icon-chevron-left" ></a>
+									<a class="next icon-chevron-right" ></a>
+								</div>
+								<div class="m-you-collect">
+									<a><i class="icon-heart"></i><span>收藏商品</span></a>
+								</div>
+							</div>
+						</div>
+						<div class="main-wraper">
+							<div class="m-title">
+								<h3>
+									<span>今日特卖</span>
+									猪猪的故事儿童童装男女童睡衣家居服套装
+								</h3>
+								<p>秋冬季新品 男女童珊瑚绒睡衣家居服  柔软舒适 做工细致 小价格 大保障</p>
+							</div>
+							<div class="m-price">
+								<div class="now-price">
+									<em>￥<i>59.00</i></em>
+								</div>
+								<div class="ago-price">
+									<span>市场价</span>
+									<del>108.00</del>
+								</div>
+								<div class="tuan-discount">
+									<span>折扣</span>
+									<strong>5.4折</strong>
+								</div>
+								<div>
+									<span>您节省了</span>
+									<strong>49.00</strong>
+								</div>
+								<div class="line"></div>
+							</div>
+							<div class="m-sale">
+								<div class="attention-head">请选择你要的商品信息</div>
+								<div class="attr m-sale-attr">
+									<label>优惠</label>
+									<span class="return-info">
+										<em class="orange-tag">返</em> 购买后约返10个贝壳 
+										<i class="icon-chevron-down"></i>
+										<div class="more-info">
+											<ul>
+												<li>确认收货后领取到账。自收货起7天内可领取，100贝壳=1元，<br />购物可抵现金。</li>
+												<li>返贝壳数量与订单实付金额有关，不含满减（满折），<br />现金券和贝壳抵现的金额。</li>
+												<li>不同等级会员下单后所返贝壳数量不同，等级越高，返的越多，<br />最终以实际到账为准。</li>
+											</ul>
+											<p></p>
+										</div>
+									</span>
+								</div>
+								<div class="attr">
+									<label>运费</label>
+									<span>包邮（偏远地区除外）</span>
+								</div>
+								<div>
+									<div class="attr selectItem attr1">
+										<label>颜色</label>
+										<ul class="attr-value"></ul>
+									</div>
+									<div class="attr selectItem attr2">
+										<label>尺码</label>
+										<ul class="attr-value">
+											
+										</ul>
+										<a class="size-see">查看尺码表</a>
+									</div>
+								</div>
+								<div class="attr buy-num">
+									<label>购买数量</label>
+									<div class="detail-number">
+										<a class="number-op del-num1">
+											<i class="icon-minus"></i>
+										</a>
+										<input type="text" value="1" />
+										<a class="number-op add-num1">
+											<i class="icon-plus"></i>
+										</a>
+									</div>件
+									<span>每人限购五件</span>
+								</div>
+								<div class="buy-bar">
+									<a class="add-to-cart-btn">
+										<i class="icon-shopping-cart"></i>	
+										<span class="btn1">立即抢购</span>
+										<span class="btn2">请选择商品</span>
+										<span class="goPayText">
+											去结算
+										</span>
+									</a>
+									<a class="continue-buy-btn">继续购物</a>
+								</div>
+								<div class="tuan-apply">
+									<div class="a-count-down">
+										<div class="countdown">
+											<i class="icon-time"></i>还剩
+											<span class="days"></span>天
+											<span class="hours"></span>时
+											<span class="minutes"></span>分
+											<span class="seconds"></span>.
+											<span class="mseconds"></span>秒
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="size-list">
+			<div class="list-msg">消息</div>
+			<div class="list-content-outer">
+				<div class="list-content">
+					<div class="item-size">
+						<div class="item-size-tab">
+							<div class="item-size-thead">
+								<span class="item-size-title">尺码对照表</span>
+								<span class="item-size-unit">单位：CM</span>
+							</div>
+							<div class="item-size-tbody">
+								<table id="itemSizeTable">
+									<thead>
+										<tr>
+											<td width="9%">尺码</td>
+											<td width="9%">衣长</td>
+											<td width="9%">肩宽</td>
+											<td width="9%">胸围</td>
+											<td width="9%">袖长</td>
+											<td width="9%">裤/裙长</td>
+											<td width="9%">腰围</td>
+											<td width="9%">臀围</td>
+											<td width="9%">建议身高</td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>6码【85-95cm】</td>
+											<td>38</td>
+											<td>29</td>
+											<td>69</td>
+											<td>30</td>
+											<td>48</td>
+											<td>34-48</td>
+											<td>69</td>
+											<td>85-95</td>
+										</tr>
+										<tr>
+											<td>8码【95-100cm】</td>
+											<td>41</td>
+											<td>30</td>
+											<td>73</td>
+											<td>32</td>
+											<td>53</td>
+											<td>36-50</td>
+											<td>73</td>
+											<td>95-100</td>
+										</tr>
+										<tr>
+											<td>10码【100-110cm】</td>
+											<td>44</td>
+											<td>32</td>
+											<td>77</td>
+											<td>35</td>
+											<td>60</td>
+											<td>38-52</td>
+											<td>77</td>
+											<td>100-110</td>
+										</tr>
+										<tr>
+											<td>12码【110-120cm】</td>
+											<td>47</td>
+											<td>33</td>
+											<td>81</td>
+											<td>37</td>
+											<td>64</td>
+											<td>40-54</td>
+											<td>82</td>
+											<td>110-120</td>
+										</tr>
+										<tr>
+											<td>14码【120-130cm】</td>
+											<td>50</td>
+											<td>34</td>
+											<td>88</td>
+											<td>39</td>
+											<td>69</td>
+											<td>42-56</td>
+											<td>88</td>
+											<td>120-130</td>
+										</tr>
+										<tr>
+											<td>16码【130-140cm】</td>
+											<td>53</td>
+											<td>35</td>
+											<td>90</td>
+											<td>42</td>
+											<td>74</td>
+											<td>46-60</td>
+											<td>90</td>
+											<td>130-140</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="item-size-close"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="size-mask"></div>
+		
+		<div class="bigView">
+			<img src="images/big1.jpg"/>
+		</div>
+		<!--底部-->
+			<div id="footer">
+				<div class="footer-nav">
+					<a href="index.html">首页</a> | 
+					<a href="#">关于贝贝</a> | 
+					<a href="#">商家入驻</a> | 
+					<a href="#">正品保证</a> | 
+					<a href="#">人才招聘</a> | 
+					<a href="#">联系我们</a> | 
+					<a href="#">帮助中心</a> | 
+					<a href="#">友情链接</a> | 
+					<a href="#">手机客户端</a> | 
+					<a href="#">客服在线</a> | 
+					<a href="#">贝贝公益</a> | 
+					<a href="#">品质健康</a>
+				</div>
+				<div class="footer-content">
+					<div class="footer-content-wraper">
+						<p>浙ICP备12005806号 |食品流通许可证：SP3301041510054925 |出版物经营许可证：新出发零字第00086号</p>
+						<p style="margin-top: 8px;">
+							© 2014-2016 <a style="color: #999;" href="index.html">贝贝</a>beibei.com，All Rights Reserved. 客服热线：10107788
+						</p>
+						<div>
+							<a href="https://ss.knet.cn/verifyseal.dll?sn=e16072233010064201bhd4000000&comefrom=trust&trustKey=dn&trustValue=www.beibei.com"><img style="width: 90px;height: 32px;" src="images/cp.png" /></a>&nbsp;&nbsp;
+							<a href="https://search.szfw.org/cert/l/CX20140613008216008256"><img style="width: 90px;height: 32px;"  src="images/cxwz.png" /></a>&nbsp;&nbsp;
+							<a href="#"><img style="width: 90px;height: 32px;"  src="images/picc.png" /></a>&nbsp;&nbsp;
+							<a href="http://122.224.75.236/wzba/login.do?method=hdurl&doamin=http://www.beibei.com&id=330104000229884&SHID=1223.0AFF_NAME=com.rouger.gs.main.UserInfoAff&AFF_ACTION=qyhzdetail&PAGE_URL=ShowDetail"><img style="width: 90px;height: 32px;"  src="images/hzgs.png" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+	</body>
+</html>

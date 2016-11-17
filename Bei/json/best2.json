@@ -1,0 +1,233 @@
+[
+				{
+					"img":"url(images/main-bk3.jpg) center center no-repeat",
+					"content":[
+							{
+								"tImg":"images/tcon1.jpg",
+								"dName":"迪士尼宝宝专场",
+								"dPrice":" 全场满299减100元"
+							},
+							{
+								"tImg":"images/tcon2.jpg",
+								"dName":"贝壳元素专场",
+								"dPrice":" 全场满199减80元"
+							},
+							{
+								"tImg":"images/tcon3.jpg",
+								"dName":"齐齐熊 ciciibear专场",
+								"dPrice":" 全场满219减20元"
+							},
+							{
+								"tImg":"images/tcon4.jpg",
+								"dName":"怡妍宝贝 Eyanbaby",
+								"dPrice":" 全场满199减100元"
+							},
+							{
+								"tImg":"images/tcon5.jpg",
+								"dName":"Singbail专场",
+								"dPrice":" 全场满299减60元"
+							},
+							{
+								"tImg":"images/tcon6.jpg",
+								"dName":"米妮哈鲁 minizaru专",
+								"dPrice":" 全场满299减100元"
+							},
+							{
+								"tImg":"images/tcon7.jpg",
+								"dName":"恩恩熊专场",
+								"dPrice":" 全场满199减50元"
+							},
+							{
+								"tImg":"images/tcon8.jpg",
+								"dName":"安塞尔斯 Ansel’s专",
+								"dPrice":" 全场满199减50元"
+							}
+					
+					]
+				},
+				{
+					"img":"url(images/main-bk4.jpg) center center no-repeat",
+					"content":[
+							{
+								"tImg":"images/tcon2-1.jpg",
+								"dName":"巴布豆专场",
+								"dPrice":" 全场满199减50元"
+							},
+							{
+								"tImg":"images/tcon2-2.jpg",
+								"dName":"基诺浦 Ginoble专场",
+								"dPrice":" 全场满399减20元"
+							},
+							{
+								"tImg":"images/tcon2-3.jpg",
+								"dName":"SNOOPY 史努比专场",
+								"dPrice":" 全场满199减50元"
+							},
+							{
+								"tImg":"images/tcon2-4.jpg",
+								"dName":"NIKE 耐克专场",
+								"dPrice":" 全场满599减50元"
+							},
+							{
+								"tImg":"images/tcon2-5.jpg",
+								"dName":"大黄蜂专场",
+								"dPrice":" 全场满299减60元"
+							},
+							{
+								"tImg":"images/tcon2-6.jpg",
+								"dName":"abckids专场",
+								"dPrice":" 全场满299减100元"
+							},
+							{
+								"tImg":"images/tcon2-7.jpg",
+								"dName":"芭芭鸭专场",
+								"dPrice":" 全场满199减50元"
+							},
+							{
+								"tImg":"images/tcon2-8.jpg",
+								"dName":"回力 warrior专场",
+								"dPrice":" 全场满199减50元"
+							}
+					
+					]
+				},
+				{
+					"img":"url(images/main-bk7.jpg) center center no-repeat",
+					"content":[
+							{
+								"tImg":"images/tcon3-1.jpg",
+								"dName":"森马 Semir专场",
+								"dPrice":" 全场满299减70元"
+							},
+							{
+								"tImg":"images/tcon3-2.jpg",
+								"dName":"韩都衣舍 HSTYLE专",
+								"dPrice":" 全场满299减100元"
+							},
+							{
+								"tImg":"images/tcon3-3.jpg",
+								"dName":"千仞岗 Chericom专",
+								"dPrice":" 全场满499减60元"
+							},
+							{
+								"tImg":"images/tcon3-4.jpg",
+								"dName":"CACHE CACHE专场",
+								"dPrice":" 全场满299减100元"
+							},
+							{
+								"tImg":"images/tcon3-5.jpg",
+								"dName":"燕客专场",
+								"dPrice":" 全场满159减20元"
+							},
+							{
+								"tImg":"images/tcon3-6.jpg",
+								"dName":"蝶米轩专场",
+								"dPrice":" 全场满199减50元"
+							},
+							{
+								"tImg":"images/tcon3-7.jpg",
+								"dName":"南极人专场",
+								"dPrice":" 全场满199减100元"
+							},
+							{
+								"tImg":"images/tcon3-8.jpg",
+								"dName":"新观兰 ",
+								"dPrice":" 全场满199减100元"
+							}
+					
+					]
+				},
+				{
+					"img":"url(images/main-bk8.jpg) center center no-repeat",
+					"content":[
+							{
+								"tImg":"images/tcon4-1.jpg",
+								"dName":"卓诗尼 JOSINY专场",
+								"dPrice":" 全场满199减100元"
+							},
+							{
+								"tImg":"images/tcon4-2.jpg",
+								"dName":"大东 DUSTO专场",
+								"dPrice":" 全场满199减50元"
+							},
+							{
+								"tImg":"images/tcon4-3.jpg",
+								"dName":"名典 medd专场",
+								"dPrice":" 全场满299减100元"
+							},
+							{
+								"tImg":"images/tcon4-4.jpg",
+								"dName":"克曼丝专场",
+								"dPrice":" 全场满199减50元"
+							},
+							{
+								"tImg":"images/tcon4-5.jpg",
+								"dName":"歌莉娅 GLIYA专场",
+								"dPrice":" 全场满299减30元"
+							},
+							{
+								"tImg":"images/tcon4-6.jpg",
+								"dName":"布西妮专场",
+								"dPrice":" 全场满199减50元"
+							},
+							{
+								"tImg":"images/tcon4-7.jpg",
+								"dName":"七匹狼专场",
+								"dPrice":" 全场满299减100元"
+							},
+							{
+								"tImg":"images/tcon4-8.jpg",
+								"dName":"鸿星尔克专场 ",
+								"dPrice":" 全场满299减100元"
+							}
+					
+					]
+				},
+				{
+					"img":"url(images/main-bk13.jpg) center center no-repeat",
+					"content":[
+							{
+								"tImg":"images/tcon5-1.jpg",
+								"dName":"憨豆熊 Silly funny ",
+								"dPrice":"7.0折"
+							},
+							{
+								"tImg":"images/tcon5-2.jpg",
+								"dName":"口口福专场",
+								"dPrice":" 全场满149减30元"
+							},
+							{
+								"tImg":"images/tcon5-3.jpg",
+								"dName":"百草味 BE＆CHEERY专场",
+								"dPrice":"8.6折"
+							},
+							{
+								"tImg":"images/tcon5-4.jpg",
+								"dName":"口水娃专场",
+								"dPrice":"全场满99减20元"
+							},
+							{
+								"tImg":"images/tcon5-5.jpg",
+								"dName":"西域美农专场",
+								"dPrice":"5.0折"
+							},
+							{
+								"tImg":"images/tcon5-6.jpg",
+								"dName":"达利园专场",
+								"dPrice":"全场满199减100元"
+							},
+							{
+								"tImg":"images/tcon5-7.jpg",
+								"dName":"慕滋专场",
+								"dPrice":"5.0折"
+							},
+							{
+								"tImg":"images/tcon5-8.jpg",
+								"dName":"港荣 Kong WENG专场 ",
+								"dPrice":"5.9折"
+							}
+					
+					]
+				}
+	]
+	
